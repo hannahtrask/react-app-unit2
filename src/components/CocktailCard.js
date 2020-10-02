@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../scss/cocktailcard.scss';
 
 const CocktailCard = () => {
     return (
