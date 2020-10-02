@@ -2,7 +2,7 @@
 
 ## Project links
 
- - [Github project link]()
+ - [Github project link](https://github.com/hannahtrask/react-app-unit2)
  - [Live project link]()
 
 ## Project Description
@@ -106,7 +106,8 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
  ![Desktop Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655536/Desktop_Wireframe_1_dkmxih.png)
  
  ## MVP/Post MVP
- 
+ ##### Unless otherwise noted, time is listed in hours.
+
  ### MVP
  
    * App
