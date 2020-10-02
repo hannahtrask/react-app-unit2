@@ -14,3 +14,62 @@
 // Sand: HEX #E3A767, rgb(227, 167, 103)
 // Deep Orange: HEX #ED9D48, rgb(237, 157, 72)
 // Brick White: HEX #EBE0D6, rgb(235, 224, 214)
+
+
+
+
+// //config file:
+// //color variable assignments
+// //if it's being reused start the file with an UNDERSCORE
+// $vermillion: #DC493A;
+// $eucalyptus: #49DCB1;
+// $darkBlue: #1B1B3A;
+// $pink: #EF767A;
+// $lapis: #2660A4;
+
+// $divBorder: 1px solid black;
+
+
+// ///mixins make it so you can modularly reuse code
+// //avoids non semantic classes
+// @mixin div($divBorder) {
+//     padding: 20px;
+//     margin: 20px;
+//     background-color: $pink;
+//     border: $divBorder;
+// }
+
+//
+// // sass practice connected to config file
+// @import './practice_config';
+
+// main {
+//   div {
+//     @include div($divBorder);
+//   }
+// }
+
+
+// // //can also nest styles
+// // // example:
+// // nav {
+// //     ul {
+
+// //     }
+
+// //     li {
+
+// //     }
+// // }
+
+
+
+// /*THIS IS HOW TO SPIN THINGS!!!*/
+// /* @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// } */
