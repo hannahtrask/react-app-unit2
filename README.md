@@ -88,7 +88,7 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
 ## Wireframes and App Structure
 
 Below is a link to the architecture of my app.
-- [React Architecture](https://res.cloudinary.com/digwu4vdh/image/upload/v1601586651/App_Structure_cl0lag.png)
+- [React Architecture](https://res.cloudinary.com/digwu4vdh/image/upload/v1601650622/App_Structure_1_kaoj6i.png)
 
  Mobile
  - [add link to your wireframes]()
