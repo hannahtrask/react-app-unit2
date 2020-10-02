@@ -160,6 +160,7 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
 | Nav Bar | h | 2hrs| TBD |
+| About Page | h | 2hrs| TBD |
 | Cocktail List | h | 4hrs| TBD |
 | Cocktail Card | h | 3hrs| TBD |
 | Cocktail Search Form | h | 3hrs| TBD |
