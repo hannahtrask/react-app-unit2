@@ -9,12 +9,14 @@
 
 For my Unit 2 project, I'll be building an app where you can search cocktails by their ingredient. By clicking on a list of cocktails or searching in a form, you can pull up a card with the cocktail image, a short description, and a list of ingredients in each of the drinks. The idea is that there will be a place you can go to either peruse a list of cocktails or search for a specific cocktail. Some cocktails have different iterations, and each search will show every iteration of it's own cocktail on each card.
 
-## Prokect Styling
+## Project Styling
 
-I chose the below palette for this project. I want to represent the darker colors associated with the cool, dark lighting you often find in a cocktail bar. The dominating color scheme will be navy with some splashes of color here and there. The idea is to feel like you're in a trendy place while you look up trendy cocktails!
-- [Color Palette](https://coolors.co/9dbf9d-f7910f-ed9d48-1d504c-617f77)
+The general theme of my App will be Old American West. I want the viewer to feel like they've teleported back in time to a saloon on the side of a railway, but in a classy way. If you are familiar, think WestWorld meets Back to the Future Part III.
 
-I chose two typefaces for this project. One is the display style Abril— according to the type foundry Abril has "thin serifs and clean curves" which "lend the typeface a refined touch that give any headline an elegant appearance". The idea is to feel like you are part of an elegant, refined environment. For the majority of the text on the screen, I've chosen Open Sans, which is optimized for easy reading on screen interfaces.
+I chose the below palette for this project. I want to represent the darker colors associated with the cool, dark lighting you often find in a cocktail bar. The dominating color scheme will be dark with some splashes of color here and there. The idea is to feel like you're in a trendy place while you look up trendy cocktails!
+- [Color Palette](https://coolors.co/15181d-183642-575a60-9d4827-ce5f55-e3a767-ed9d48-ebe0d6)
+
+I chose two typefaces for this project. One is the display style Rye— because of its inspiration being drawn from old American West wood-block posters, it brings up feelings of nostalgia. Often this sentiment suggests strong whiskey cocktails. Another is Raleway, which even by its name ties itself flawlessly to the Western style of Rye, it is web-readable, geometric, and elegant.
 - [Google Fonts](https://fonts.google.com/)
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;400;600&display=swap');
