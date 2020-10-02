@@ -7,7 +7,7 @@
 
 ## Project Description
 
-For my Unit 2 project, I'll be building an app where you can search cocktails by their ingredient. By clicking on a list of cocktails or searching in a form, you can pull up a card with the cocktail image, a short description, and a list of ingredients in each of the drinks. The idea is that there will be a place you can go to either peruse a list of cocktails or search for a specific cocktail. Some cocktails have different iterations, and each search will show every iteration of it's own cocktail on each card.
+For my Unit 2 project, I'll be building an app where you can search cocktails by their main liquor ingredient or name. By searching in a form, you can pull up a card with the cocktail image, a short description, and a list of ingredients in each of the drinks. The idea is that there will be a place you can go to either peruse a list of cocktails or search for a specific cocktail. Some cocktails have different iterations, and each search will show every iteration of it's own cocktail on each card.
 
 ## Project Styling
 
@@ -18,10 +18,6 @@ I chose the below palette for this project. I want to represent the darker color
 
 I chose two typefaces for this project. One is the display style Rye— because of its inspiration being drawn from old American West wood-block posters, it brings up feelings of nostalgia. Often this sentiment suggests strong whiskey cocktails. Another is Raleway, which even by its name ties itself flawlessly to the Western style of Rye, it is web-readable, geometric, and elegant.
 - [Google Fonts](https://fonts.google.com/)
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;400;600&display=swap');
-font-family: 'Abril Fatface', cursive;
-font-family: 'Open Sans', sans-serif;
 
 ## API
 
@@ -102,12 +98,10 @@ Below is a link to the architecture of my app.
 
  ![Mobile Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654749/Mobile_Wireframe_4_co8tja.png)
  
- Tablet
  - [Tablet Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654746/Tablet_Wireframe_3_wzm3fg.png)
 
   ![Tablet Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654746/Tablet_Wireframe_3_wzm3fg.png)
  
- Desktop
  - [Desktop Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655536/Desktop_Wireframe_1_dkmxih.png)
 
  ![Desktop Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655536/Desktop_Wireframe_1_dkmxih.png)
