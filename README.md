@@ -87,7 +87,6 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
 
 ### App Structure
 
-Below is a link to the architecture of my app.
 - [React Architecture](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655163/Architecture_rzkfa2.png)
 
 ![React Architecture](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655163/Architecture_rzkfa2.png)
