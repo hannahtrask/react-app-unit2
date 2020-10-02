@@ -135,6 +135,8 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
   * CSS Animations
   * Drink ingredient serving size adjust
   * Image Carousel homepage
+
+  ### Time Estimates
   
 | Task | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
@@ -145,6 +147,15 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
 | Total | high | 14hrs| TBD |
   
   ## Components 
+
+  * Nav Bar
+  * About Page
+  * Cocktail List
+  * Cocktail Card
+  * Cocktail Form
+  * Fave Cocktail List(postMVP)
+
+  ### Time Estimates
   
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
