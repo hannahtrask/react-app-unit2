@@ -123,16 +123,17 @@ Below is a link to the architecture of my app.
    * Cocktail Search Form
    * Cocktail Card
  
-### Other MVP
+### Time Estimates
 
-| Task | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Overall Styles | h | 4hrs| x | unknown |
-| Routing | h | 2hrs| x | unknown |
-| Linking| h | 2hrs| x | unknown |
-| Extra Dependency Installs | l | 1hr | x | unknown |
-| API Research | h | 5hrs| x | unknown |
-| Total | high | 14hrs| x | unknown |
+| Task | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---:  | :---: |
+| Overall Styles | h | 4hrs| TBD |
+| Routing | h | 2hrs| TBD |
+| Linking| h | 2hrs | TBD |
+| Component Structure | h | 5hrs | TBD |
+| Extra Dependency Installs | l | 1hr  | TBD |
+| API Research | h | 5hrs | TBD |
+| Total | high | 14hrs | TBD |
     
  ### Post MVP
  
@@ -141,25 +142,25 @@ Below is a link to the architecture of my app.
   * Drink ingredient serving size adjust
   * Image Carousel homepage
   
-| Task | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Favorite Cocktail List Styling | h | 2hrs| x | unknown |
-| Fill Effect Animation | h | 3hrs| x | unknown |
-| Incorporate Bootstrap | l | 3hr | x | unknown |
-| Adjust Drink Serving Size | h | 6hrs| x | unknown |
-| Total | high | 14hrs| x | unknown |
+| Task | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Favorite Cocktail List Styling | h | 2hrs| TBD |
+| Fill Effect Animation | h | 3hrs| TBD |
+| Incorporate Bootstrap | l | 3hr | TBD |
+| Adjust Drink Serving Size | h | 6hrs| TBD |
+| Total | high | 14hrs| TBD |
   
   ## Components 
   
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Nav Bar | h | 2hrs| x | unknown |
-| Cocktail List | h | 4hrs| x | unknown |
-| Cocktail Card | h | 3hrs| x | unknown |
-| Cocktail Search Form | h | 3hrs| x | unknown |
-| Favorite Cocktail List(post-mvp) | l | 3hrs| x | unknown |
-| Implementing API | h | 5hrs| x | unknown |
-| Total | high | 20hrs| x | unknown |
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Nav Bar | h | 2hrs| TBD |
+| Cocktail List | h | 4hrs| TBD |
+| Cocktail Card | h | 3hrs| TBD |
+| Cocktail Search Form | h | 3hrs| TBD |
+| Favorite Cocktail List(post-mvp) | l | 3hrs| TBD |
+| Implementing API | h | 5hrs| TBD |
+| Total | high | 20hrs| TBD |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
