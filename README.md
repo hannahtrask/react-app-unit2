@@ -11,7 +11,7 @@ For my Unit 2 project, I'll be building an app where you can search cocktails by
 
 ## Project Styling
 
-The general theme of my App will be Old American West. I want the viewer to feel like they've teleported back in time to a saloon on the side of a railway, but in a classy way. If you are familiar, think WestWorld meets Back to the Future Part III.
+The general theme of my App will be Old American West. I want the viewer to feel like they've teleported back in time to a saloon on the side of a railway, but in a classy way. Think Prohibition Era cocktail bar mixed with Wild West saloon.
 
 I chose the below palette for this project. I want to represent the darker colors associated with the cool, dark lighting you often find in a cocktail bar. The dominating color scheme will be dark with some splashes of color here and there. The idea is to feel like you're in a trendy place while you look up trendy cocktails!
 - [Color Palette](https://coolors.co/15181d-183642-575a60-9d4827-ce5f55-e3a767-ed9d48-ebe0d6)
@@ -89,17 +89,20 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
 
 ## Wireframes and App Structure
 
+### App Structure
+
 Below is a link to the architecture of my app.
 - [React Architecture](https://res.cloudinary.com/digwu4vdh/image/upload/v1601650622/App_Structure_1_kaoj6i.png)
 
- Mobile
- - [add link to your wireframes]()
+### Wireframes
+
+ - [Mobile Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654502/Mobile_Wireframe_3_vk5zzq.png)
  
  Tablet
- - [add link to your wireframes]()
+ - [Tablet Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654504/Tablet_Wireframe_2_to1jhc.png)
  
  Desktop
- - [add link to your wireframes]()
+ - [Desktop Wireframe]()
  
  ## MVP/Post MVP
  
@@ -149,7 +152,9 @@ Below is a link to the architecture of my app.
 | Total | high | 20hrs| x | unknown |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
+
+ - [Sass](https://sass-lang.com/)
 
 ## Code Snippet
 
