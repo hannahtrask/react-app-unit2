@@ -110,6 +110,7 @@ Below is a link to the architecture of my app.
  
    * App
    * Fixed Nav Bar
+   * About section blurb
    * Full Cocktail List
    * Cocktail Search Form
    * Cocktail Card
