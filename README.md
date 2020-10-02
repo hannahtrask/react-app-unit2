@@ -173,6 +173,7 @@ I chose the cocktaiDB API for my app. There are several different data sets to a
  Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
 
  - [Sass](https://sass-lang.com/)
+ - [ReactStrap](https://reactstrap.github.io/)
 
 ## Code Snippet
 
