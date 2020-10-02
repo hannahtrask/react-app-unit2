@@ -130,10 +130,11 @@ Below is a link to the architecture of my app.
 | Overall Styles | h | 4hrs| TBD |
 | Routing | h | 2hrs| TBD |
 | Linking| h | 2hrs | TBD |
-| Component Structure | h | 5hrs | TBD |
+| Component Structure | h | 3hrs | TBD |
 | Extra Dependency Installs | l | 1hr  | TBD |
-| API Research | h | 5hrs | TBD |
-| Total | high | 14hrs | TBD |
+| API Research | h | 3hrs | TBD |
+| API call and render | 3h | 5hrs | TBD |
+| Total | high | 18hrs | TBD |
     
  ### Post MVP
  
