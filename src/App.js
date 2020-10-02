@@ -1,14 +1,20 @@
 import React from 'react';
-import './scss/practice.scss';
+import './scss/_config.scss';
+import Nav from './components/Nav';
+import About from './components/About';
+import CocktailList from './components/CocktailList';
+import CocktailForm from './components/CocktailForm';
+import CocktailCard from './components/CocktailCard';
 
 function App() {
   return (
 		<main>
 			<div className='App'>
-				<h1>hello world</h1>
-				<h2>hello</h2>
-				<h3>hello</h3>
-				<h4>hello</h4>
+        <Nav />
+        <About />
+        <CocktailList />
+        <CocktailForm />
+        <CocktailCard />
 			</div>
 		</main>
 	);
