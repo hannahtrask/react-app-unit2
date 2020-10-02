@@ -21,7 +21,7 @@ I chose two typefaces for this project. One is the display style Rye— because 
 
 ## API
 
-I chose the cocktaiDB API for my app. There are several different data sets to access, and I added below a snippet from the "search by cocktail" data set.
+I chose the cocktailDB API for my app. There are several different data sets to access, and I added below a snippet from the "search by cocktail" data set.
 ```{
 "drinks": [
 {
