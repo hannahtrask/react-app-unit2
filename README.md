@@ -99,12 +99,18 @@ Below is a link to the architecture of my app.
 ### Wireframes
 
  - [Mobile Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654749/Mobile_Wireframe_4_co8tja.png)
+
+ ![Mobile Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654749/Mobile_Wireframe_4_co8tja.png)
  
  Tablet
  - [Tablet Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654746/Tablet_Wireframe_3_wzm3fg.png)
+
+  ![Tablet Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601654746/Tablet_Wireframe_3_wzm3fg.png)
  
  Desktop
  - [Desktop Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655536/Desktop_Wireframe_1_dkmxih.png)
+
+ ![Desktop Wireframe](https://res.cloudinary.com/digwu4vdh/image/upload/v1601655536/Desktop_Wireframe_1_dkmxih.png)
  
  ## MVP/Post MVP
  
