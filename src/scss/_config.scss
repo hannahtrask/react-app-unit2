@@ -15,10 +15,13 @@ $sand: #E3A767;
 $deepOrange: #ED9D48;
 $brickWhite: #EBE0D6;
 
-
-.App {
+.App, html {
     background-color: $richBlack;
     color: $brickWhite;
+}
+
+nav a {
+    color: white;
 }
 
 ul {

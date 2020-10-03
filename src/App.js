@@ -4,6 +4,7 @@ import About from './components/About';
 import CocktailList from './components/CocktailList';
 import CocktailForm from './components/CocktailForm';
 import CocktailCard from './components/CocktailCard';
+import {  Route, Link, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -12,14 +13,21 @@ function App() {
 				<nav>
 					<ul>
 						<img src={require('./images/whiskey.png')} alt='whiskeylogo' />
-						<h4>about us</h4>
-						<h4>cocktail list</h4>
+						<Link to='/about'>about us</Link>
+						<Link to='/cocktaillist'>cocktail list</Link>
 					</ul>
 				</nav>
-				<About />
-				<CocktailList />
-				<CocktailForm />
-				<CocktailCard />
+				<Switch>
+					<Route path='/about'>
+						<About />
+					</Route>
+					<Route path='/cocktaillist'>
+						<CocktailList />
+					</Route>
+				</Switch>
+        {/*don't render these on homepage, this is just placeholder stuff*/}
+				{/* <CocktailForm />
+				<CocktailCard /> */}
 			</div>
 		</main>
 	);
