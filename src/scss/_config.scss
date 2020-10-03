@@ -5,28 +5,38 @@
 // font-family: 'Raleway', sans-serif (weights: 400, 500)
 // font-family: 'Rye', cursive; 
 
-// //COLORS!!!! (save as variables)
-// Rich Black: HEX #15181D, rgb(21, 24, 29)
-// Cool Gray: HEX #183642, rgb(24, 54, 66)
-// Davys Grey: HEX #575A60, rgb(87, 90, 96)
-// Burnt Umber: HEX #9D4827, rgb(157, 72, 39)
-// Cedar Chest: HEX #CE5F55, rgb(206, 95, 85)
-// Sand: HEX #E3A767, rgb(227, 167, 103)
-// Deep Orange: HEX #ED9D48, rgb(237, 157, 72)
-// Brick White: HEX #EBE0D6, rgb(235, 224, 214)
+// //COLORS!!!!
+$davysGray: #575A60;
+$coolGray: #183642;
+$richBlack: #15181D;
+$burntUmber: #9D4827;
+$cedarChest: #CE5F55;
+$sand: #E3A767;
+$deepOrange: #ED9D48;
+$brickWhite: #EBE0D6;
 
 
+.App {
+    background-color: $richBlack;
+    color: $brickWhite;
+}
 
+ul {
+    background-color: $sand;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Rye', cursive;
+}
 
-// //config file:
-// //color variable assignments
-// //if it's being reused start the file with an UNDERSCORE
-// $vermillion: #DC493A;
-// $eucalyptus: #49DCB1;
-// $darkBlue: #1B1B3A;
-// $pink: #EF767A;
-// $lapis: #2660A4;
-
+img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+}
 // $divBorder: 1px solid black;
 
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import './scss/_config.scss';
-import Nav from './components/Nav';
 import About from './components/About';
 import CocktailList from './components/CocktailList';
 import CocktailForm from './components/CocktailForm';
@@ -10,11 +9,17 @@ function App() {
   return (
 		<main>
 			<div className='App'>
-        <Nav />
-        <About />
-        <CocktailList />
-        <CocktailForm />
-        <CocktailCard />
+				<nav>
+					<ul>
+						<img src={require('./images/whiskey.png')} alt='whiskeylogo' />
+						<h4>about us</h4>
+						<h4>cocktail list</h4>
+					</ul>
+				</nav>
+				<About />
+				<CocktailList />
+				<CocktailForm />
+				<CocktailCard />
 			</div>
 		</main>
 	);
