@@ -18,10 +18,10 @@ function App() {
 					</ul>
 				</nav>
 				<Switch>
-					<Route path='/about'>
+					<Route exact path='/about'>
 						<About />
 					</Route>
-					<Route path='/cocktaillist'>
+					<Route exact path='/cocktaillist'>
 						<CocktailList />
 					</Route>
 				</Switch>
