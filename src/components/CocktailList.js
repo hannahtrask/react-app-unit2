@@ -55,7 +55,8 @@ const CocktailList = () => {
 
     return (
 			<div>
-				<h3>cocktail list</h3>
+				<h3>random cocktail list</h3>
+                <h4>pick a drink from the list below to learn its specs!</h4>
 				{/* <form>
                     <input val='string' placeholder='type in a letter...'></input>
                 </form> */}

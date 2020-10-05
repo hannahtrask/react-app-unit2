@@ -34,7 +34,7 @@ const handleSubmit = () => {
 							<img src={require('./images/whiskey.png')} alt='whiskeylogo' />
 						</Link>
 						<Link to='/about'>about us</Link>
-						<Link to='/cocktaillist'>cocktail list</Link>
+						<Link to='/cocktaillist'>randomizer</Link>
 					</ul>
 				</nav>
 				<h1>whiskey neat</h1>
