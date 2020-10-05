@@ -16,7 +16,7 @@ const CocktailCard = (props) => {
 
 	return (
 		<div>
-			<h4>this is the cocktail card page</h4>
+			<h4>your drink</h4>
 		</div>
 	);
 }
