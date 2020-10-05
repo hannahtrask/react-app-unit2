@@ -3,10 +3,11 @@ import CocktailCard from './CocktailCard';
 import '../scss/cocktaillist.scss';
 import { Link } from 'react-router-dom';
 
-const CocktailList = () => {
+const CocktailList = (props) => {
 
     //sets state for list of cocktails.
     const [list, setList] = useState([])
+
 
     //fetch API call
     //grabs all cocktails
@@ -28,40 +29,33 @@ const CocktailList = () => {
 		getAllCocktails();
     }, [])
 
+
     //maps over all drinks in array, returns a list, this only covers drinks starting with 'a'
+    
     const allDrinks = list.map ( (bev) => {
+        console.log(bev)
         return (
-					<Link to={'/cocktaillist/' + bev.strDrink}>
-						<p>{bev.strDrink}</p>
-					</Link>
+					<li onClick={() => {
+                        props.setSelected(bev)
+                    }}>
+						<Link to={'/cocktaillist/' + bev.strDrink}>
+							<h3>{bev.strDrink}</h3>
+						</Link>
+					</li>
 				);
     })
 
-    //this useState is to set which drink is clicked on on the cocktail list
-    const [selectedDrink, setSelectedDrink] = useState('');
 
-    //handle the click on the cocktail name
-    //all this does is return an image of the drink
-    const handleClick = (e) => {
-        // console.log('this is e.target.innerText, in handleClick', e.target.innerText)
-        let singleCocktail = list.filter( (drink) => {
-            return drink.strDrink === e.target.innerText;
-        })
-        setSelectedDrink(singleCocktail[0].strDrink)
-    }
 
-    console.log('this is selected drink', selectedDrink)
 
 
     return (
 			<div>
 				<h3>random cocktail list</h3>
-                <h4>pick a drink from the list below to learn its specs!</h4>
-				{/* <form>
-                    <input val='string' placeholder='type in a letter...'></input>
-                </form> */}
-				<li onClick={handleClick}>{allDrinks}</li>
-
+				<h4>pick a drink from the list below to learn its specs!</h4>
+				<ul className='random'>
+					{allDrinks}
+				</ul>
 			</div>
 		);
 }

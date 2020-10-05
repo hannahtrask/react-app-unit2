@@ -9,51 +9,44 @@ const CocktailCard = (props) => {
 	//     return e
     // })
     
-const [currentCocktail, setCurrentCocktail] = useState({})
+const { drink } = props
     
-//the idea here is that we get the currentDrink data from the click, and then call the cocktailDB api to match the name of the drink to a search, and then render those on the page
-//right now have a fetch set up
-//not sure why data is coming back null
-//this is the roadblock!
 
-//should grab data about current drink in the api but for whatever reason is coming back null
-//ask instructor with token
-    useEffect(() => {
-			const getCurrentDrink = async () => {
-                let currentDrink = props.match.params;
-                console.log('this is current drink', currentDrink)
-				const response = await fetch(
-					`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${currentDrink.cocktail}`
-                );
-                const data = await response.json();
-                console.log('this is data', data);
-                //this is an object
-                console.log('this is data.drinks[0]', data.drinks[0])
-                setCurrentCocktail({
-                    name: data.drinks[0].strDrink,
-                    instructions: data.drinks[0].strInstructions,
-                    ingredient1: data.drinks[0].strIngredient1,
-                    image: data.drinks[0].strDrinkThumb
-                })
-                console.log('this is currentDrink', currentDrink)
-                //why does this not return the information from above?
-                //need this to render card
-                console.log('this is currentCocktail', currentCocktail)
-            };
-            getCurrentDrink()
-            
-		}, []);
-// question: did I properly use the state I declared above?
-// how do I take the information from getCurrentDrink() to render below?
-    
-    
-//if time, ask about image size
+
+//use a ternary in the return below.. this will help you determine whether or not you need to display an ingredient or measure
 
 	return (
 		<div>
 			<h4>your drink</h4>
+			<p>{drink.strDrink}</p>
+			<h5>glassware: {drink.strGlass}</h5>
+			<p>
+				ingredient: {drink.strIngredient1} 
+                <br />
+				amount: {drink.strMeasure1} 
+			</p>
+			<p>
+				ingredient: {drink.strIngredient2}
+                <br />
+				amount: {drink.strMeasure2} 
+			</p>
+			<p>
+				ingredient: {drink.strIngredient3}
+                <br /> 
+				amount: {drink.strMeasure3} 
+			</p>
+			<p>
+				ingredient: {drink.strIngredient4} 
+                <br />
+				amount: {drink.strMeasure4} 
+			</p>
+			<h4>make it!</h4>
+			<p>{drink.strInstructions}</p>
+			<img src={drink.strDrinkThumb} className='card' />
 		</div>
 	);
+    
+
 }
 
 export default CocktailCard;

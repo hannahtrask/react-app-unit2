@@ -60,7 +60,7 @@ const slides = items.map((item) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} className='carousel' />
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );

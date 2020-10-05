@@ -20,26 +20,44 @@ $brickWhite: #EBE0D6;
     color: $brickWhite;
 }
 
+
 nav a {
     color: white;
 }
 
-ul {
-    background-color: $sand;
-    color: white;
+ul.about {
+    background-color: $coolGray;
+    border-bottom: 5px solid $cedarChest;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    font-family: 'Rye', cursive;
-    height: 120px;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100px;
 }
 
-img {
+li {
+    list-style: none;
+}
+
+// ul {
+//     background-color: $coolGray;
+//     color: white;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     padding: 10px 20px;
+//     font-family: 'Rye', cursive;
+//     height: 120px;
+// }
+
+li {
+    font-family: 'Rye', cursive;
+}
+
+img.config {
     display: inline-block;
-    vertical-align: middle;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
 }
 // $divBorder: 1px solid black;
 
