@@ -38,6 +38,7 @@ const handleSubmit = () => {
 					</ul>
 				</nav>
 				<h1>whiskey neat</h1>
+
         <CocktailForm handleSubmitFromApp={handleSubmit} />
 				<Switch>
 					<Route exact path='/about'>

@@ -47,6 +47,7 @@ const [currentCocktail, setCurrentCocktail] = useState({})
 // how do I take the information from getCurrentDrink() to render below?
     
     
+//if time, ask about image size
 
 	return (
 		<div>
