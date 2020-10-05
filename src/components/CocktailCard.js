@@ -43,7 +43,8 @@ const [currentCocktail, setCurrentCocktail] = useState({})
             getCurrentDrink()
             
 		}, []);
-
+// question: did I properly use the state I declared above?
+// how do I take the information from getCurrentDrink() to render below?
     
     
 
