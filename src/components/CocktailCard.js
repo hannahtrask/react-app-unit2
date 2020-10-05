@@ -9,7 +9,7 @@ const CocktailCard = (props) => {
 	//     return e
     // })
     
-const [currentDrink, setCurrentDrink] = useState([])
+const [currentCocktail, setCurrentCocktail] = useState({})
     
 //the idea here is that we get the currentDrink data from the click, and then call the cocktailDB api to match the name of the drink to a search, and then render those on the page
 //right now have a fetch set up
@@ -27,17 +27,22 @@ const [currentDrink, setCurrentDrink] = useState([])
                 );
                 const data = await response.json();
                 console.log('this is data', data);
-                // this is an array
-                console.log('this is data.drinks', data.drinks)
                 //this is an object
                 console.log('this is data.drinks[0]', data.drinks[0])
-                console.log('this is data.drinks[0].strDrinkThumb', data.drinks[0].strDrinkThumb)
-                setCurrentDrink(data)
+                setCurrentCocktail({
+                    name: data.drinks[0].strDrink,
+                    instructions: data.drinks[0].strInstructions,
+                    ingredient1: data.drinks[0].strIngredient1,
+                    image: data.drinks[0].strDrinkThumb
+                })
                 console.log('this is currentDrink', currentDrink)
+                //why does this not return the information from above?
+                //need this to render card
+                console.log('this is currentCocktail', currentCocktail)
             };
             getCurrentDrink()
+            
 		}, []);
-//how to take the data I got above and render?
 
     
     
