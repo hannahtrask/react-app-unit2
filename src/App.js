@@ -27,6 +27,13 @@ const handleClick = (drink) => {
 						<Link to='/cocktaillist'>cocktail list</Link>
 					</ul>
 				</nav>
+				<h3>welcome</h3>
+				<h1>to whiskey neat</h1>
+				<p>
+					the missing ingredient you've been waiting for <br />
+					type in a letter, search a cocktail, and take your zoom dinner party
+					to the next level
+				</p>
 				<Switch>
 					<Route exact path='/about'>
 						<About />
@@ -39,8 +46,7 @@ const handleClick = (drink) => {
 						/*this will pass in all that fun routerProps stuff along with handleclick, which will manage clicking on*/
 						/*the individual stocks, and will also pass the stock value from the useState instantiated above*/
 						render={(routerProps) => (
-              <CocktailCard {...routerProps} 
-                            handleClick={handleClick} />
+							<CocktailCard {...routerProps} handleClick={handleClick} />
 						)}
 					/>
 				</Switch>
