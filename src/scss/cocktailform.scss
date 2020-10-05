@@ -1,0 +1,16 @@
+@import './config';
+
+div {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+form  {
+    margin: 10px;
+}
+
+input.submit {
+    margin: 10px;
+    border: none;
+    font-size: 15px;
+}
