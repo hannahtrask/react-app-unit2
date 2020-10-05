@@ -3,9 +3,16 @@ import '../scss/cocktailcard.scss';
 
 const CocktailCard = (props) => {
 
+console.log('this is router props,', props)
+console.log('this is props.match.params,', props.match.params)
+// let currentDrink = props.allDrinks.filter( (e) => {
+//     console.log('this is e,', e)
+//     return e
+// })
 
-//have yet to make this an individual page
-    console.log(props.url)
+//another fetch for data.....
+
+
     return (
         <div>
             <h4>this is the cocktail card page</h4>
