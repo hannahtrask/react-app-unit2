@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../scss/cocktailcard.scss';
 
 const CocktailCard = (props) => {
@@ -7,12 +7,29 @@ const CocktailCard = (props) => {
 	// let currentDrink = props.allDrinks.filter( (e) => {
 	//     console.log('this is e,', e)
 	//     return e
-	// })
+    // })
+    
 
-//fetch call to get all drinks. then filter through that array to set currentDrink
-	//another fetch for data.....
-	//after fetch, filter
-	//pull from https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+    
+
+//should grab data about current drink in the api but for whatever reason is coming back null
+//ask instructor with token
+    useEffect(() => {
+			const getCurrentDrink = async () => {
+                let currentDrink = props.match.params;
+                console.log('this is current drink', currentDrink)
+				const response = await fetch(
+					`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${currentDrink}`
+				);
+				const data = await response.json();
+				console.log('this is data', data);
+            };
+            getCurrentDrink()
+		}, []);
+
+    
+    
+    
 
 	return (
 		<div>

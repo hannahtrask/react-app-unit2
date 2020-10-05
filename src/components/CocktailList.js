@@ -22,7 +22,7 @@ const CocktailList = () => {
 			);
             const data = await response.json();
             setList(await data.drinks);
-            console.log('this is data.drinks,', data.drinks)
+            // console.log('this is data.drinks,', data.drinks)
 		};
 
 		getAllCocktails();
@@ -60,6 +60,7 @@ const CocktailList = () => {
                     <input val='string' placeholder='type in a letter...'></input>
                 </form> */}
 				<li onClick={handleClick}>{allDrinks}</li>
+
 			</div>
 		);
 }
