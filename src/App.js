@@ -28,6 +28,7 @@ const handleSubmit = (bev) => {
       //this shows all the data
       .then((res)=>console.log('this is the json response from the FORM in APP!!', res))
       //data appropriately gathered. need to set to drink data and then pass to cocktail card
+      //not sure why this is always such a road block!! lol
 }
 
 

@@ -76,11 +76,11 @@ const slides = items.map((item) => {
 				{slides}
 			</Carousel>
 			<div className='description'>
-				<h1>about us</h1>
+				<h1>About Whiskey Neat</h1>
 				<p>
-					our mission is to make the cocktail an art form. expand your
+					Our mission is to make the cocktail an art form. Expand your
 					personal library by perusing a randomly generated list of cocktails by first
-					name, or type in what you'd like in the search bar and we'll give you the resources to start building your own boozy treats
+					name, or type in what you'd like in the search bar and we'll give you the resources to start building your own boozy treats. Cheers!
 				</p>
 			</div>
 		</div>
