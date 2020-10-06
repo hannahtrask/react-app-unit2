@@ -50,10 +50,12 @@ const CocktailList = (props) => {
 
 
     return (
-			<div>
+			<div className='section'>
 				<div className='title'>
 					<h3>The Randomizer</h3>
+                    <br />
 					<h4>Pick a drink. Learn its specs.</h4>
+                    <h4>Refresh the page. Get inspired.</h4>
 				</div>
 				<ul className='random'>{allDrinks}</ul>
 			</div>

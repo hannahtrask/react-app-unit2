@@ -16,7 +16,7 @@ const { drink } = props
 //use a ternary in the return below.. this will help you determine whether or not you need to display an ingredient or measure
 
 	return (
-		<div>
+		<div className='cocktail-card'>
 			<h3>your drink:</h3>
 			<h5>{drink.strDrink}</h5>
             <br/>

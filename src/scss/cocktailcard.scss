@@ -1,3 +1,5 @@
+@import './config';
+
 h3, h5 {
     font-family: 'Rye', cursive;
     text-align: center;
@@ -7,4 +9,10 @@ img.card {
     margin: 0 auto;
     height: 300px;
     width: 300px;
+}
+
+.cocktail-card {
+    background-color: $richBlack;
+    opacity: .9;
+    padding: 10px;
 }
