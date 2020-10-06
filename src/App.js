@@ -9,10 +9,7 @@ import {  Route, Link, Switch } from 'react-router-dom';
 function App() {
 
 const [selectedDrink, setSelectedDrink] = useState('');
-
-//handles drink click sent down to cocktail card in routerprops
 const [drink, setDrink] = useState('')
-//sets drink to whichever clicked on
 const handleClick = (drink) => {
   setDrink(drink);
 }
@@ -23,11 +20,6 @@ const handleSubmit = () => {
 }
 
 
-
-
-
-
-
   return (
 		<main>
 			<div className='App'>
@@ -35,7 +27,11 @@ const handleSubmit = () => {
 					<ul className='about'>
 						<li>
 							<Link to='/'>
-								<h3>Whiskey<br />Neat</h3>
+								<h3>
+									Whiskey
+									<br />
+									Neat
+								</h3>
 							</Link>
 						</li>
 						<li>
@@ -50,10 +46,12 @@ const handleSubmit = () => {
 						</li>
 					</ul>
 				</nav>
-        <div className="subheader">
-          <p>a react app by hannah catherine trask</p>
-        </div>
-				<h1>whiskey neat</h1>
+				<div className='subheader'>
+					<p>
+						a react app by hannah catherine trask
+					</p>
+				</div>
+				<h1>Whiskey Neat</h1>
 
 				<CocktailForm handleSubmitFromApp={handleSubmit} />
 				<Switch>
@@ -69,8 +67,6 @@ const handleSubmit = () => {
 					</Route>
 					<Route
 						path='/cocktaillist/:cocktail'
-						/*this will pass in all that fun routerProps stuff along with handleclick, which will manage clicking on*/
-						/*the individual stocks, and will also pass the stock value from the useState instantiated above*/
 						render={(routerProps) => (
 							<CocktailCard
 								{...routerProps}
