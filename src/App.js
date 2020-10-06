@@ -9,15 +9,26 @@ import {  Route, Link, Switch } from 'react-router-dom';
 function App() {
 
 const [selectedDrink, setSelectedDrink] = useState('');
-const [drink, setDrink] = useState('')
+const [drink, setDrink] = useState('');
+
+//this is the use state to initialize the form functionality
+const [drinkData, setDrinkData] = useState({});
+
+
 const handleClick = (drink) => {
   setDrink(drink);
 }
 
-
-const handleSubmit = () => {
+//takes in a bev parameter
+//paramter sends to api call to search for it
+const handleSubmit = (bev) => {
   console.log('this is handle submit')
-}
+    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${bev}`)
+      .then((res) => res.json())
+      //this shows all the data
+      .then((res)=>console.log(res))
+  }
+
 
 
   return (

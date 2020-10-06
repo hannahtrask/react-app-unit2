@@ -78,10 +78,9 @@ const slides = items.map((item) => {
 			<div className='description'>
 				<h1>about us</h1>
 				<p>
-					our mission is to make a cocktail an art form again. expand your
-					personal library by perusing a randomly generated list of cocktails by
-					name, or type in what you'd like above and we'll tell you how to make
-					it!
+					our mission is to make the cocktail an art form. expand your
+					personal library by perusing a randomly generated list of cocktails by first
+					name, or type in what you'd like in the search bar and we'll give you the resources to start building your own boozy treats
 				</p>
 			</div>
 		</div>

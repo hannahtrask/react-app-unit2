@@ -15,6 +15,12 @@ $sand: #E3A767;
 $deepOrange: #ED9D48;
 $brickWhite: #EBE0D6;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App, html {
     background-color: $richBlack;
     color: white;
@@ -29,6 +35,8 @@ $brickWhite: #EBE0D6;
 nav {
     background-color: white;
     height: 100px;
+    min-width: 360px;
+    max-width: 3000px;
 
     a {
         color: black;
@@ -62,6 +70,8 @@ div.subheader {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    min-width: 360px;
+    max-width: 3000px;
 
     p {
         font-size: .7em;
