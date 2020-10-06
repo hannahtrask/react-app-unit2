@@ -11,16 +11,16 @@ form  {
 }
 
 input {
-    border: white;
     padding: 10px;
     width: 200px;
+    border: white;
 }
 
 .submit {
         margin: 30px;
         padding: 5px;
         font-size: 15px;
-        background-color: $coolGray;
+        background-color: $richBlack;
         color: white;
-        border: none;
+        border: 2px solid white;
     }
