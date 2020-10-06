@@ -18,7 +18,13 @@ $brickWhite: #EBE0D6;
 .App, html {
     background-color: $richBlack;
     color: white;
+    background-image: url('../images/adam-wilson-6UIonphZA5o-unsplash.jpg');
+    opacity: .95;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+
 
 nav {
     background-color: white;
@@ -63,6 +69,11 @@ div.subheader {
         font-family: 'Raleway', sans-serif;
     }
 
+}
+
+.siteName h1 {
+    font-size: 80px;
+    padding: 100px 0px 80px 0px;
 }
 
 // $divBorder: 1px solid black;

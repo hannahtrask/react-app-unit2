@@ -47,11 +47,11 @@ const handleSubmit = () => {
 					</ul>
 				</nav>
 				<div className='subheader'>
-					<p>
-						a react app by hannah catherine trask
-					</p>
+					<p>a react app by hannah catherine trask</p>
 				</div>
-				<h1>Whiskey Neat</h1>
+				<div className='siteName'>
+					<h1>Whiskey Neat</h1>
+				</div>
 
 				<CocktailForm handleSubmitFromApp={handleSubmit} />
 				<Switch>

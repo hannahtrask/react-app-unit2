@@ -12,19 +12,16 @@ const items = [
 		src:
 			require('../images/sam-hojati-pb7oJwtNVU4-unsplash.jpg'),
 		altText: 'cocktail 1',
-		caption: 'mint mojito',
 	},
 	{
 		src:
 			require('../images/ralph-ravi-kayden-shHq4kGdAaU-unsplash.jpg'),
 		altText: 'cocktail 2',
-		caption: 'martini',
 	},
 	{
 		src:
 			require('../images/adam-jaime-dmkmrNptMpw-unsplash.jpg'),
 		altText: 'cocktail 3',
-		caption: 'old-fashioned',
 	},
 ];
 
@@ -70,19 +67,23 @@ const slides = items.map((item) => {
 
 	return (
 		<div>
-            <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-    >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-      {slides}
-    </Carousel>
-			<h1>about us</h1>
-			<p>
-                our mission is to make a cocktail an art form again. expand your personal library by perusing a randomly generated list of cocktails by name, or type in what
-				you'd like above and we'll tell you how to make it!
-			</p>
+			<Carousel activeIndex={activeIndex} next={next} previous={previous}>
+				<CarouselIndicators
+					items={items}
+					activeIndex={activeIndex}
+					onClickHandler={goToIndex}
+				/>
+				{slides}
+			</Carousel>
+			<div className='description'>
+				<h1>about us</h1>
+				<p>
+					our mission is to make a cocktail an art form again. expand your
+					personal library by perusing a randomly generated list of cocktails by
+					name, or type in what you'd like above and we'll tell you how to make
+					it!
+				</p>
+			</div>
 		</div>
 	);
 }

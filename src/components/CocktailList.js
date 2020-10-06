@@ -51,11 +51,11 @@ const CocktailList = (props) => {
 
     return (
 			<div>
-				<h3>random cocktail list</h3>
-				<h4>pick a drink from the list below to learn its specs!</h4>
-				<ul className='random'>
-					{allDrinks}
-				</ul>
+				<div className='title'>
+					<h3>The Randomizer</h3>
+					<h4>Pick a drink. Learn its specs.</h4>
+				</div>
+				<ul className='random'>{allDrinks}</ul>
 			</div>
 		);
 }
