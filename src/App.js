@@ -35,7 +35,7 @@ const handleSubmit = () => {
 					<ul className='about'>
 						<li>
 							<Link to='/'>
-								<img className='config' src={require('./images/whiskey.png')} alt='whiskeylogo' />
+								<h3>Whiskey<br />Neat</h3>
 							</Link>
 						</li>
 						<li>
@@ -50,6 +50,9 @@ const handleSubmit = () => {
 						</li>
 					</ul>
 				</nav>
+        <div className="subheader">
+          <p>a react app by hannah catherine trask</p>
+        </div>
 				<h1>whiskey neat</h1>
 
 				<CocktailForm handleSubmitFromApp={handleSubmit} />

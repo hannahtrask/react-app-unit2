@@ -17,17 +17,28 @@ $brickWhite: #EBE0D6;
 
 .App, html {
     background-color: $richBlack;
-    color: $brickWhite;
+    color: white;
 }
 
 
 nav a {
-    color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+ 
+.link {
+    text-transform: uppercase;
+}
+
+div.subheader p {
+    background-color: $sand;
+    height: 40px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 ul.about {
-    background-color: $coolGray;
-    border-bottom: 5px solid $cedarChest;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
