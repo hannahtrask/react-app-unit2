@@ -39,7 +39,7 @@ const CocktailList = (props) => {
                         props.setSelected(bev)
                     }}>
 						<Link to={'/cocktaillist/' + bev.strDrink}>
-							<h3>{bev.strDrink}</h3>
+							<h5>{bev.strDrink}</h5>
 						</Link>
 					</li>
 				);

@@ -17,9 +17,10 @@ const { drink } = props
 
 	return (
 		<div>
-			<h4>your drink</h4>
-			<p>{drink.strDrink}</p>
-			<h5>glassware: {drink.strGlass}</h5>
+			<h3>your drink:</h3>
+			<h5>{drink.strDrink}</h5>
+            <br/>
+			<h6>glassware: {drink.strGlass}</h6>
 			<p>
 				ingredient: {drink.strIngredient1} 
                 <br />
