@@ -12,7 +12,7 @@ const [selectedDrink, setSelectedDrink] = useState('');
 const [drink, setDrink] = useState('');
 
 //this is the use state to initialize the form functionality
-const [drinkData, setDrinkData] = useState({});
+const [drinkData, setDrinkData] = useState('margarita');
 
 
 const handleClick = (drink) => {
@@ -26,8 +26,9 @@ const handleSubmit = (bev) => {
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${bev}`)
       .then((res) => res.json())
       //this shows all the data
-      .then((res)=>console.log(res))
-  }
+      .then((res)=>console.log('this is the json response from the FORM in APP!!', res))
+      //data appropriately gathered. need to set to drink data and then pass to cocktail card
+}
 
 
 
@@ -82,7 +83,9 @@ const handleSubmit = (bev) => {
 							<CocktailCard
 								{...routerProps}
 								handleClick={handleClick}
-								drink={selectedDrink}
+                drink={selectedDrink}
+                // this sends drink data down to the cocktail card from the form for render
+                drinkData={drinkData}
 							/>
 						)}
 					/>

@@ -43,6 +43,11 @@ nav {
         font-family: 'Raleway', sans-serif;
     }
 
+    a:hover {
+        color: $burntUmber;
+        text-decoration: none;
+    }
+
     ul.about {
         display: flex;
         flex-wrap: wrap;

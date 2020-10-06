@@ -10,7 +10,6 @@ const CocktailCard = (props) => {
     // })
     
 const { drink } = props
-    
 
 
 //use a ternary in the return below.. this will help you determine whether or not you need to display an ingredient or measure
