@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CocktailCard from './CocktailCard';
 import '../scss/cocktaillist.scss';
 import { Link } from 'react-router-dom';
+import '../scss/media_queries.scss';
 
 const CocktailList = (props) => {
 

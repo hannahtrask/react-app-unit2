@@ -1,0 +1,18 @@
+@media only screen and (max-width: 425px) {
+    .desktop {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .desktop {
+        align-items: center;
+
+        p {
+            text-align: left;
+        }
+    }
+
+
+}

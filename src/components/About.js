@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../scss/about.scss';
+import '../scss/media_queries.scss';
 import {
 	Carousel,
 	CarouselItem,
@@ -78,7 +79,7 @@ const slides = items.map((item) => {
 			<div className='description'>
 				<h1>About Whiskey Neat</h1>
 				<p>
-					Our mission is to make the cocktail an art form. Expand your
+					Our mission is to make the cocktail accessible to anyone. Expand your
 					personal library by perusing a randomly generated list of cocktails by first
 					name, or type in what you'd like in the search bar and we'll give you the resources to start building your own boozy treats. Cheers!
 				</p>

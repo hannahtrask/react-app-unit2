@@ -1,18 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import '../scss/cocktailcard.scss';
+import '../scss/media_queries.scss';
 
 const CocktailCard = (props) => {
-	// console.log('this is router props,', props);
-	// console.log('this is props.match.params.cocktail,', props.match.params.cocktail);
-	// let currentDrink = props.allDrinks.filter( (e) => {
-	//     console.log('this is e,', e)
-	//     return e
-    // })
     
 const { drink } = props
 
-
-//use a ternary in the return below.. this will help you determine whether or not you need to display an ingredient or measure
 
 	return (
 		<div className='cocktail-card'>

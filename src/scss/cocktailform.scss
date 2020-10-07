@@ -24,3 +24,14 @@ input {
         color: white;
         border: 2px solid white;
     }
+
+.desktop {
+    background-color: $richBlack;
+    opacity: .9;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: 5px solid white;
+    padding: 40px;
+    display: flex;
+}

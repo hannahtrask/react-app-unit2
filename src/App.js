@@ -1,37 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './scss/_config.scss';
 import About from './components/About';
 import CocktailList from './components/CocktailList';
 import CocktailForm from './components/CocktailForm';
 import CocktailCard from './components/CocktailCard';
+import CocktailCardForm from './components/CocktailCardForm';
 import {  Route, Link, Switch } from 'react-router-dom';
 
 function App() {
 
 const [selectedDrink, setSelectedDrink] = useState('');
 const [drink, setDrink] = useState('');
-
-//this is the use state to initialize the form functionality
 const [drinkData, setDrinkData] = useState('margarita');
-
 
 const handleClick = (drink) => {
   setDrink(drink);
 }
 
-//takes in a bev parameter
-//paramter sends to api call to search for it
 const handleSubmit = (bev) => {
   console.log('this is handle submit')
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${bev}`)
       .then((res) => res.json())
-      //this shows all the data
-      .then((res)=>console.log('this is the json response from the FORM in APP!!', res))
-      //data appropriately gathered. need to set to drink data and then pass to cocktail card
-      //not sure why this is always such a road block!! lol
+      .then(res => setDrinkData(res.drinks))
 }
 
-
+console.log('this is drinkData', drinkData)
 
   return (
 		<main>
@@ -67,6 +60,7 @@ const handleSubmit = (bev) => {
 				</div>
 
 				<CocktailForm handleSubmitFromApp={handleSubmit} />
+        {/* <CocktailCardForm drinkData={drinkData} /> */}
 				<Switch>
 					<Route exact path='/about'>
 						<About />
@@ -84,9 +78,7 @@ const handleSubmit = (bev) => {
 							<CocktailCard
 								{...routerProps}
 								handleClick={handleClick}
-                drink={selectedDrink}
-                // this sends drink data down to the cocktail card from the form for render
-                drinkData={drinkData}
+								drink={selectedDrink}
 							/>
 						)}
 					/>
