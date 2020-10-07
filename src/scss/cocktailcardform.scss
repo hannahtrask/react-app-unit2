@@ -1,0 +1,13 @@
+@import './config';
+
+.hero-div {
+    width: 350px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cocktail-card {
+    margin: 0 auto;
+    width: 100%;
+}
