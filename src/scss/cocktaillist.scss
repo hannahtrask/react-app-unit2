@@ -37,10 +37,16 @@ ul.random {
     padding: 10px;
     background-color: $richBlack;
     opacity: .8;
+    -webkit-margin-bottom-collapse: 15px;
 }
 
 .title {
     background-color: $richBlack;
     opacity: .8;
     padding: 10px;
+}
+
+.section-footer {
+    background-color: $sand;
+    height: 30px;
 }
