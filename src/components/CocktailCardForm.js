@@ -17,31 +17,22 @@ const drinkArr = props.drinkData
 console.log('this is drinkArr', drinkArr)
 
 
-// //use token
-// //here tried to deal with drinkList.map is not a function
-// //however can only save this to function?
-// const drinkList = () => {
-// 	if (Array.isArray(drinkArr)) {
-// 		drinkArr.map((bev) => {
-// 			return <h1>{bev.strDrink}</h1>;
-// 		});
-//     }
-// }
 
-// //this turns up an error drinkList.map() is not a function
-// const fullDrinkList = drinkArr.map( (bev) => {
-//     if (Array.isArray(drinkArr)){
-//  return <h1>{bev.strDrink}</h1>;
-//     }
-   
-// })
+const drinkList = () => {
+	if (Array.isArray(drinkArr)) {
+		return drinkArr.map((bev) => {
+            return (
+            <h1>{bev.strDrink}</h1>
+            
+            );
+		});
+    }
+}
 
-
-// console.log('this is drinkList', fullDrinkList)
 
 	return (
 		<div className='cocktail-card'>
-            <h4>card</h4>
+            <h4>{drinkList()}</h4>
 		</div>
 	);
 };

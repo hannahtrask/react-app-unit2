@@ -11,7 +11,7 @@ function App() {
 
 const [selectedDrink, setSelectedDrink] = useState('');
 const [drink, setDrink] = useState('');
-const [drinkData, setDrinkData] = useState('margarita');
+const [drinkData, setDrinkData] = useState([]);
 
 const handleClick = (drink) => {
   setDrink(drink);
@@ -60,7 +60,7 @@ console.log('this is drinkData', drinkData)
 				</div>
 
 				<CocktailForm handleSubmitFromApp={handleSubmit} />
-        {/* <CocktailCardForm drinkData={drinkData} /> */}
+        <CocktailCardForm drinkData={drinkData} />
 				<Switch>
 					<Route exact path='/about'>
 						<About />
