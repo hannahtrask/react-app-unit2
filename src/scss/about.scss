@@ -29,4 +29,9 @@ img.carousel {
 .description {
     background-color: $richBlack;
     padding: 15px;
+    display: inline-block;
+}
+
+.logo {
+    display: none;
 }

@@ -11,7 +11,7 @@ const drinkList = () => {
 	if (Array.isArray(drinkArr)) {
 		return drinkArr.map((bev) => {
             return (
-            <div className='hero-div'>
+            <div className='card-container'>
 			<div className='cocktail-card'>
 				<img src={bev.strDrinkThumb} className='card' alt='drink image' />
 				<div class='container'>
@@ -49,7 +49,7 @@ const drinkList = () => {
 					<p>{bev.strInstructions}</p>
 				</div>
 			</div>
-		</div>
+            </div>
             );
 		});
     }
@@ -60,7 +60,7 @@ const drinkList = () => {
 
 
 	return (
-		<div>
+		<div className='drink-list'>
             {drinkList()}
 		</div>
 	);

@@ -21,6 +21,10 @@ $brickWhite: #EBE0D6;
   box-sizing: border-box;
 }
 
+main {
+    background-image: url('../images/adam-wilson-6UIonphZA5o-unsplash.jpg');
+}
+
 .App, html {
     background-color: $richBlack;
     color: white;
@@ -28,6 +32,17 @@ $brickWhite: #EBE0D6;
     opacity: .95;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+div.hero-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    background-color: $richBlack;
+    opacity: .95;
+    margin: 0 auto;
 }
 
 nav {

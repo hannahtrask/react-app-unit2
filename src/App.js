@@ -60,7 +60,9 @@ console.log('this is drinkData', drinkData)
 				</div>
 
 				<CocktailForm handleSubmitFromApp={handleSubmit} />
-        <CocktailCardForm drinkData={drinkData} />
+       
+				  <CocktailCardForm drinkData={drinkData} />
+
 				<Switch>
 					<Route exact path='/about'>
 						<About />
@@ -72,16 +74,16 @@ console.log('this is drinkData', drinkData)
 							}}
 						/>
 					</Route>
-					<Route
-						path='/cocktaillist/:cocktail'
-						render={(routerProps) => (
-							<CocktailCard
-								{...routerProps}
-								handleClick={handleClick}
-								drink={selectedDrink}
-							/>
-						)}
-					/>
+						<Route
+							path='/cocktaillist/:cocktail'
+							render={(routerProps) => (
+								<CocktailCard
+									{...routerProps}
+									handleClick={handleClick}
+									drink={selectedDrink}
+								/>
+							)}
+						/>
 				</Switch>
 			</div>
 		</main>

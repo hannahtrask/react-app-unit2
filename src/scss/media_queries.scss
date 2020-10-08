@@ -2,6 +2,18 @@
     .desktop {
         display: none !important;
     }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+        .card-container {
+    width: 44%;
+}
+
+.random-card {
+    width: 700px !important;
+}
 }
 
 
@@ -13,6 +25,22 @@
             text-align: left;
         }
     }
+    .description {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+    }
 
+    .logo {
+    display: flex;
+}
+
+.card-container {
+    width: 30%;
+}
+
+.random-card {
+    width: 1000px !important;
+}
 
 }
