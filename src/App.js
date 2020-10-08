@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './scss/_config.scss';
 import About from './components/About';
 import CocktailList from './components/CocktailList';
@@ -58,11 +58,8 @@ console.log('this is drinkData', drinkData)
 				<div className='siteName'>
 					<h1>Whiskey Neat</h1>
 				</div>
-
 				<CocktailForm handleSubmitFromApp={handleSubmit} />
-       
-				  <CocktailCardForm drinkData={drinkData} />
-
+				<CocktailCardForm drinkData={drinkData} />
 				<Switch>
 					<Route exact path='/about'>
 						<About />

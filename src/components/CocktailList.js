@@ -32,10 +32,6 @@ const CocktailList = (props) => {
 				);
     })
 
-
-
-
-
     return (
 			<>
 				<div className='section'>

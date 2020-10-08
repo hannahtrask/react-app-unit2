@@ -10,7 +10,7 @@ const { drink } = props
 	return (
         <div className='random-card'>
 			<div className='cocktail-card'>
-				<img src={drink.strDrinkThumb} className='card' alt='drink image' />
+				<img src={drink.strDrinkThumb} className='card' alt='drink' />
 				<div class='container'>
 					<h3>your drink:</h3>
 					<h5>{drink.strDrink}</h5>

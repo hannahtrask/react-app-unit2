@@ -3,14 +3,12 @@ import '../scss/cocktailform.scss';
 import '../scss/media_queries.scss';
 
 const CocktailForm = (props) => {
-
     const [cocktail, setCocktail] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
         props.handleSubmitFromApp(cocktail)
     }
-
     const handleChange = (e) => {
         e.preventDefault()
         const bev = e.target.value

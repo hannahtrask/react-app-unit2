@@ -13,7 +13,7 @@ const drinkList = () => {
             return (
             <div className='card-container'>
 			<div className='cocktail-card'>
-				<img src={bev.strDrinkThumb} className='card' alt='drink image' />
+				<img src={bev.strDrinkThumb} className='card' alt='drink' />
 				<div class='container'>
 					<h3>your drink:</h3>
 					<h5>{bev.strDrink}</h5>
