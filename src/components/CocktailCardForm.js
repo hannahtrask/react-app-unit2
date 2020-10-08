@@ -3,18 +3,7 @@ import '../scss/cocktailcardform.scss';
 import '../scss/media_queries.scss';
 
 const CocktailCardForm = (props) => {
-
-// console.log('this is props.drinkData.drinks', props.drinkData.drinks)
-
-// let drinkArr = props.drinkData.drinks;
-
-// console.log(drinkArr)
-
-console.log('this is props', props.drinkData)
-
 const drinkArr = props.drinkData
-
-console.log('this is drinkArr', drinkArr)
 
 
 
