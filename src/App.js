@@ -24,8 +24,6 @@ const handleSubmit = (bev) => {
       .then(res => setDrinkData(res.drinks))
 }
 
-console.log('this is drinkData', drinkData)
-
   return (
 		<main>
 			<div className='App'>
