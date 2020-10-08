@@ -121,14 +121,14 @@ I chose the cocktailDB API for my app. There are several different data sets to 
 
 | Task | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---:  | :---: |
-| Overall Styles | h | 4hrs| TBD |
-| Routing | h | 2hrs| TBD |
-| Linking| h | 2hrs | TBD |
-| Component Structure | h | 3hrs | TBD |
-| Extra Dependency Installs | l | 1hr  | TBD |
-| API Research | h | 3hrs | TBD |
-| API call and render | 3h | 5hrs | TBD |
-| Total | high | 18hrs | TBD |
+| Overall Styles | h | 4hrs| 6 |
+| Routing | h | 2hrs| 2 |
+| Linking| h | 2hrs | 1.5 |
+| Component Structure | h | 3hrs | 4 |
+| Extra Dependency Installs | l | 1hr  | .5 |
+| API Research | h | 3hrs | 3 |
+| API call and render | 3h | 5hrs | 3 |
+| Total | high | 18hrs | 20 |
     
  ### Post MVP
  
@@ -141,11 +141,11 @@ I chose the cocktailDB API for my app. There are several different data sets to 
   
 | Task | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Favorite Cocktail List Styling | h | 2hrs| TBD |
-| Fill Effect Animation | h | 3hrs| TBD |
-| Incorporate Bootstrap | l | 3hr | TBD |
-| Adjust Drink Serving Size | h | 6hrs| TBD |
-| Total | high | 14hrs| TBD |
+| Favorite Cocktail List Styling | h | 2hrs| n/a |
+| Hover Animation | h | 3hrs| 1 |
+| Incorporate Reactstrap | l | 3hr | 2 |
+| Adjust Drink Serving Size | h | 6hrs| n/a |
+| Total | high | 14hrs| 3 |
   
   ## Components 
 
@@ -160,27 +160,27 @@ I chose the cocktailDB API for my app. There are several different data sets to 
   
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Nav Bar | h | 2hrs| TBD |
-| About Page | h | 2hrs| TBD |
-| Cocktail List | h | 4hrs| TBD |
-| Cocktail Card | h | 3hrs| TBD |
-| Cocktail Search Form | h | 3hrs| TBD |
-| Favorite Cocktail List(post-mvp) | l | 3hrs| TBD |
-| Implementing API | h | 5hrs| TBD |
-| Total | high | 20hrs| TBD |
+| Nav Bar | h | 2hrs| 3 |
+| About Page | h | 2hrs| 3 |
+| Cocktail List | h | 4hrs| 2 |
+| Cocktail Card | h | 3hrs| 4 |
+| Cocktail Search Form | h | 3hrs| 3 |
+| Favorite Cocktail List(post-mvp) | l | 3hrs| n/a |
+| Implementing API | h | 5hrs| 4 |
+| Total | high | 20hrs| 19 |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
 
  - [Sass](https://sass-lang.com/)
  - [ReactStrap](https://reactstrap.github.io/)
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+When I was writing the form and trying to get the data to render on submit, a big road block was checking whether or not that drink actually existed. This code snippet checks to see if the drink or letter entered is associated with an array, and if it is, it will map over the array and return the information. This was fun practice in reading and understanding documentation better.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+const drinkList = () => {
+	if (Array.isArray(drinkArr)) {
+		return drinkArr.map((bev) => {
+            return (...)
 ```
