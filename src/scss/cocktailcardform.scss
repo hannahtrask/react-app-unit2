@@ -15,4 +15,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+}
+
+.card-container {
+    transition: .5s ease-in-out;
+    border-radius: 2px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
 }

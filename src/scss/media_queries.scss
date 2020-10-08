@@ -41,7 +41,11 @@
 
 .random-card {
     width: 1000px !important;
-        display: flex;
+}
+
+img.card {
+    margin: 0 auto;
+    width: 280px !important;
 }
 
 }
