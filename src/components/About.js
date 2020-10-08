@@ -83,7 +83,7 @@ const slides = items.map((item) => {
 					personal library by perusing a randomly generated list of cocktails by first
 					name, or type in what you'd like in the search bar and we'll give you the resources to start building your own boozy treats. Cheers!
 				</p>
-                <img className='logo' src={require('../images/whiskey-glass.png')} />
+                <img className='logo' src={require('../images/whiskey.png')} />
 			</div>
 		</div>
 	);
