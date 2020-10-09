@@ -8,7 +8,6 @@ import CocktailCardForm from './components/CocktailCardForm';
 import {  Route, Link, Switch } from 'react-router-dom';
 
 function App() {
-
 const [selectedDrink, setSelectedDrink] = useState('');
 const [drink, setDrink] = useState('');
 const [drinkData, setDrinkData] = useState([]);

@@ -5,8 +5,6 @@ import '../scss/media_queries.scss';
 const CocktailCardForm = (props) => {
 const drinkArr = props.drinkData
 
-
-
 const drinkList = () => {
 	if (Array.isArray(drinkArr)) {
 		return drinkArr.map((bev) => {
@@ -54,10 +52,6 @@ const drinkList = () => {
 		});
     }
 }
-
-
-
-
 
 	return (
 		<div className='drink-list'>

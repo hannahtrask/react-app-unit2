@@ -5,8 +5,6 @@ import '../scss/media_queries.scss';
 const CocktailCard = (props) => {
     
 const { drink } = props
-
-
 	return (
         <div className='random-card'>
 			<div className='cocktail-card'>
@@ -48,8 +46,6 @@ const { drink } = props
 			</div>
         </div>
 	);
-    
-
 }
 
 export default CocktailCard;

@@ -28,7 +28,6 @@ const items = [
 
 
 const About = (props) => {
-
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -61,8 +60,6 @@ const slides = items.map((item) => {
       </CarouselItem>
     );
   });
-
-
 
 	return (
 		<div>

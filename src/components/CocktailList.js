@@ -15,7 +15,6 @@ const CocktailList = (props) => {
             const data = await response.json();
             setList(await data.drinks);
 		};
-
 		getAllCocktails();
     }, [])
     
